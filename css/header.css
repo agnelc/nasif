@@ -1,0 +1,219 @@
+/*======= Header ===========*/
+.main_warp {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.header_main {
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 1001;
+	width: 100%;
+}
+
+.header_main .container {
+	padding-top: 25px;
+	background-color: #fff;
+}
+.header_main .logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 425px;
+}
+
+.header_main .logo a {
+	display: block;
+	text-align:center;
+}
+
+.header_main .menu-btn {
+	float: left;
+	width: 60px;
+	margin-top: 5px;
+	margin-bottom: 18px;
+	text-align: center;
+	
+}
+
+.header_main .menu-btn a {
+	position: relative;
+	display: block;
+	min-height: 28px;
+	padding-bottom: 4px;
+	font-weight: 100;
+	font-size: 14px;
+	color: #19171c;
+	border-bottom: solid 2px #39373b;
+}
+
+.header_main .menu-btn a.active {
+	font-size: 0;
+	text-indent: -999;
+}
+
+.header_main .menu-btn a.active:before {
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 100%;
+	font-family:"Ionicons";
+	font-size: 24px;
+	content: "\f2d7";
+}
+
+.header_main .connect-btn {
+	float: right;
+	width: 120px;
+	margin-top: 5px;
+	margin-bottom: 18px;
+	text-align: center;
+}
+
+.header_main .connect-btn a {
+	position: relative;
+	display: block;
+	min-height: 28px;
+	padding-bottom: 4px;
+	font-weight: 100;
+	font-size: 14px;
+	color: #19171c;
+	border-bottom: solid 2px #39373b;
+}
+
+.header_main .connect-btn a.active {
+	font-size: 0;
+	text-indent: -999;
+}
+
+.header_main .connect-btn a.active:before {
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 100%;
+	font-family:"Ionicons";
+	font-size: 24px;
+	content: "\f2d7";
+}
+
+.header_main .container {
+	background-color: #fff;
+}
+
+.navigation {
+	display: none;
+	float: left;
+	width: 100%;
+	margin-top: 19px;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+.navigation ul {
+	display: block;
+}
+
+.navigation li {
+	display: inline-block;
+	margin: 0 32px;
+}
+
+.navigation li a {
+	display: block;
+	font-weight:500;
+	font-size: 14px;
+	color: #000;
+}
+
+.navigation li a:hover,
+.navigation li a.active { color: #B0B0B0; }
+
+.social-links {
+	display: none;
+	float: left;
+	width: 100%;
+	margin-top: 19px;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+.social-links ul {
+	display: block;
+}
+
+.social-links li {
+	display: inline-block;
+	margin: 0 32px;
+}
+
+.social-links li a {
+	display: block;
+	font-family:'FontAwesome';
+	font-size: 14px;
+	color: #000;
+}
+.social-links li a:hover{
+	color: #B0B0B0;
+}
+.overlay {
+	background:  no-repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-size: cover;
+	height: 100%;
+}
+/*======= Slider Section End ===========*/
+.main-slider {
+	background: -webkit-linear-gradient(left, rgba(19, 27, 81, 0.7) 0%, rgba(232, 212, 230, 0.7) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(to right, rgba(19, 27, 81, 0.7) 0%, rgba(232, 212, 230, 0.7) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);	
+	position: relative;
+	overflow:hidden;
+	width: 100%;
+	min-height: 752px;
+}
+
+.home-bg {
+	background: url('../images/backgrounds/bg.jpg') no-repeat fixed center center rgba(0, 0, 0, 0);
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	z-index: -1;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.slider_content {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+h1.q_slide_title {
+    color: #fff;
+	font-weight:400;
+    font-size: 60px;
+}
+h2.q_slide_subtitle {
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
+}
+.line {
+    background-color: #fff;
+    display: block;
+    height: 2px;
+    margin: 35px auto 40px;
+    width: 37px;
+}
+.q_slide_text span a {
+    color: #fff;
+	font-weight:400;
+    font-size: 14px;
+    margin: 0;
+}
